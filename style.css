@@ -1,0 +1,22 @@
+@charset "UTF-8";
+main{
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px #112744bc;
+    margin: auto;
+    border-radius: 10px;
+}
+.input{
+   width: 500px;
+}
+h2{
+    align-items: center;
+}
+h2.basico{
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center;
+}
