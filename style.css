@@ -12,7 +12,7 @@ main{
 }
 @font-face {
     font-family: Blacksword;
-    src: url("Blacksword.otf") format("opentype");
+    src: url("Fonts/Blacksword.otf") format("opentype");
 }
 h1{
     font-family: Blacksword;
@@ -58,3 +58,10 @@ h2.avancado{
 body{
     background-image: linear-gradient(to top, #8E78FA, #5F70E3, #6DAAFD);
 }
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #5036d1;
+    border-radius: 20px;
+}
+.
