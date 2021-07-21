@@ -1,6 +1,6 @@
 @charset "UTF-8";
 main{
-    background-color: white;
+    background-color: rgb(246, 245, 245);
     width: 600px;
     padding: 10px;
     box-shadow: 5px 5px 15px #112744bc;
@@ -10,13 +10,51 @@ main{
 .input{
    width: 500px;
 }
-h2{
-    align-items: center;
+@font-face {
+    font-family: Blacksword;
+    src: url("Blacksword.otf") format("opentype");
+}
+h1{
+    font-family: Blacksword;
+    color: #426DAD;
+    text-align: center;
+    font-size: 44px;
+    box-shadow: 4px 6px 7px rgba(31, 29, 29, 0.76);
+    border-radius: 10px 12px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(255, 255, 255);
 }
 h2.basico{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: green;
     color: white;
     border-radius: 20px;
     width: 300px;
     text-align: center;
+    font-weight: bold;
+    margin-left: 140px;
+}
+h2.intermediario{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:yellow;
+    color: white;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center; 
+    font-weight: bold;
+    margin-left: 140px;
+}
+h2.avancado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:red;
+    color: white;
+    border-radius: 20px;
+    width: 300px;
+    text-align: center; 
+    font-weight: bold;
+    margin-left: 140px;
+}
+body{
+    background-image: linear-gradient(to top, #8E78FA, #5F70E3, #6DAAFD);
 }
